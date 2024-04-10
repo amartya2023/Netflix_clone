@@ -15,12 +15,12 @@ body {
   background-position: center center;
   background-size: max(1100px, 80vm);
   background-repeat: no-repeat;
-  height: 70vh;
+  height: 95vh;
   position: relative;
 }
 
 .main .box {
-  height: 70vh;
+  height: 95vh;
   width: 100%;
   opacity: 0.69;
   position: absolute;
@@ -102,7 +102,7 @@ nav button {
 .btn-red {
   background-color: red;
   color: white;
-  padding: 3px 24px;
+  padding: 12px 24px;
   font-size: 20px;
   border-radius: 4px;
   font-weight: 400;
@@ -121,7 +121,7 @@ nav button {
 }
 
 .main input {
-  padding: 7px 101px 8px 14px;
+  padding: 16px 101px 16px 14px;
   font-size: 12px;
   color: white;
   border-radius: 4px;
