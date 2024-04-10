@@ -178,9 +178,6 @@ nav button {
   text-align: center;
   font-weight: 800;
   font-size: 48px;
-  /* padding-bottom: 20px; */
-  /* border: 1px solid white; */
-  /* margin-bottom: 22px; */
 }
 
 .faq {
@@ -207,5 +204,36 @@ nav button {
 
 svg{
   color: white;
+}
 
+footer {
+  color: white;
+  max-width: 60vw;
+  height: 25vw;
+  margin: auto;
+  padding: 14px;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  color: white;
+  column-gap: 90px;
+  
+}
+
+.footer a {
+  font-size: 14px;
+  text-decoration: none;
+  color: white;
+}
+
+.footer-item {
+  display: flex;
+  flex-direction: column;
+  gap: 23px;
+}
+
+.questions {
+  padding: 34px 0;
 }
